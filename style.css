@@ -2,9 +2,10 @@
 body {
   background-image: url("bg.gif");
   background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   margin: 0;
-  background-color: #4CAF50;
+  background-color: #3498db;
   /*background: radial-gradient(circle at center, rgba(50,50,50,1) 0%,rgba(14,14,14,1) 35%)*/
   display: flex;
   flex-direction: column;
@@ -160,4 +161,8 @@ button:focus {
   100% {
     background-position: 0px 200px, 0 200px, 0px 200px, 0px 200px;
   }
+}
+
+.flip-horizontally {
+  transform: scaleX(-1);
 }
